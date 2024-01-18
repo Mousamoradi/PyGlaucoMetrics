@@ -6,4 +6,3 @@ Instruction:
 # python  test_rpy2.py
 4- Open Jupyter notebook
 >> jupyter notebook
- 
