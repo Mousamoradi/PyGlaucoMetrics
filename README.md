@@ -23,3 +23,9 @@ raw_data_tdp = df_tdp.loc[:, 'l1':'l54']
 df_diag_HAP2 = Fn_HAP2_part2(raw_data_pdp) # it needs pdp values. will compute if necessary
 df_diag_UKG = Fn_UKGTS(raw_data_td) #it needs tdp values, will compute if necessary
 df_diag_logts = Fn_LoGTS(raw_data_tdp) # it need TD values, will compute if necessary
+
+
+
+# References:
+1- "PyGlaucoMetrics: An Open-Source Multi-Criteria Glaucoma Defect Evaluation", ARVO 2024, Accepted Abstract
+2- "PyVisualFields: A Python Package for Visual Field Analysis", https://tvst.arvojournals.org/article.aspx?articleid=2785341)https://tvst.arvojournals.org/article.aspx?articleid=2785341
