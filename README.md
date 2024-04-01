@@ -35,4 +35,5 @@ df_diag_logts = Fn_LoGTS(raw_data_tdp) # it need TD values, will compute if nece
 
 # References:
 1- "PyGlaucoMetrics: An Open-Source Multi-Criteria Glaucoma Defect Evaluation", ARVO 2024, Accepted Abstract
+
 2- "PyVisualFields: A Python Package for Visual Field Analysis", https://tvst.arvojournals.org/article.aspx?articleid=2785341)https://tvst.arvojournals.org/article.aspx?articleid=2785341
