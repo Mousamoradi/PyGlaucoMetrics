@@ -14,7 +14,7 @@ rpy2 = 3.4.5
 reportlab = 3.6.5
 
 
-# How to set up R environment:
+#How to set up R environment:
 
 1- conda activate env_pyVF
 
