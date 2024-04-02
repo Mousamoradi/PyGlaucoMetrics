@@ -1,4 +1,4 @@
-python = 3.8.18
+python = 3.8.19
 numpy = 1.24.4
 pandas = 1.2.4 .......... Has to be matched with rpy2 version otherwise "iteritem" error encounters
 pillow = 8.0.0
