@@ -1,5 +1,7 @@
 # Instruction:
 
+***This instruction assumes the required library correctly installed. 
+
 1- Open Anaconda PowerShell Prompt:
 
 >> cd "set path to folder"
