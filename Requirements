@@ -12,3 +12,30 @@ pypdf2 = 2.12.1
 pymupdf = 1.23.6
 rpy2 = 3.4.5
 reportlab = 3.6.5
+
+
+# How to set up R environment:
+
+1- conda activate env_pyVF
+
+2- (env_pyVF) > conda install -c conda-forge r-base==4.1.2
+
+3- Get R path: 
+
+(env_pyVF)> R
+
+> R.home()
+
+4- Add the R_HOME variable from the last step to the path:
+
+==> For windows:
+in cmd or anaconda prompt, set a permanent setting path:
+
+> setx R_HOME path/to/R
+
+==> For mac or Linux:
+permanently:
+
+> echo 'export R_HOME=path/to/R' >> ~/.bash_profile
+
+close the terminal and open a new one
