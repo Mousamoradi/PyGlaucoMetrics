@@ -1,6 +1,6 @@
 # Instruction:
 
-***This instruction assumes the required library correctly installed. 
+***This instruction assumes the required library correctly installed. If not, please install exact version of libraries/packages as stated in the Requirements.
 
 1- Open Anaconda PowerShell Prompt:
 
