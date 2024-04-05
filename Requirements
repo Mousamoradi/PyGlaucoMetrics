@@ -2,7 +2,7 @@
 
 python = 3.8.19
 numpy = 1.24.4
-pandas = 1.2.4 .......... Has to be matched with rpy2 version otherwise "iteritem" error encounters
+pandas = 1.2.4 .......... Has to be matched with rpy2 version otherwise "iteritem" error encounters. Notice: Some other modules like "pingouin" requires pandas>=1.5. If needed, the pandas library should be upgraded.
 pillow = 8.0.0
 scikit-image = 0.18.1                 
 scikit-learn = 1.3.2                 
