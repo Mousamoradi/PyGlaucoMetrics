@@ -26,6 +26,7 @@ pingouin = 0.5.4
 3- Get R path: 
 (env_pyVF)> R
 > R.home()
+#### //Copy the path and quit the R env//
 
 4- Add the R_HOME variable from the last step to the path:
 ==> For windows:
