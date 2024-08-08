@@ -51,7 +51,7 @@ activate the environement e.g.
 
 (env_pyVF)> pip install rpy2==3.4.5
 
-# use test_rpy2.py to verify the R and rpy2 installation.
+# use "python test_rpy2.py" to verify the R and rpy2 installation.
 
 6- install required R packages
 (env_pyVF)> python install_R_packages.py
