@@ -1,3 +1,9 @@
+# Description: PyGlaucoMetrics is designed to classify visual field data to glaucomatous or non-glaucomatous classes. It can accept Hemphery Field Analysis 24-2 and 10-2 test patterns. PyGlaucometrics, can specifically be useful for brlow data types:
+# (A) data_vfpwgRetest24d2: Short-term retest static automated perimetry data, collected from 30 glaucoma patients at the Queen Elizabeth Health Sciences Centre in Halifax, Nova Scotia. This dataset includes 12 visual field tests conducted over 12 weekly sessions [8].
+# (B) data_vfpwgSunyiu24d2: 24-2 static automated perimetry data from a patient with glaucoma. This dataset consists of real patient data, with age modified for anonymity [9].
+# (C) data_vfctrSunyiu24d2: A dataset of healthy eyes for 24-2 static automated perimetry, used to generate normative values. This dataset (sunyiu_24d2 and related sets) is provided courtesy of William H. Swanson and Mitch W. Dul [9].
+# (D) data_vfctrSunyiu10d2: A dataset of healthy eyes for 10-2 static automated perimetry, also contributed by William H. Swanson [9].
+
 # Instruction:
 
 ***This instruction assumes the required library correctly installed. If not, please install exact version of libraries/packages as stated in the Requirements.
