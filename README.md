@@ -23,7 +23,9 @@ Step1: Download/clone the GitHub repository: https://github.com/Mousamoradi/PyGl
 
 Step2: Create and activate a conda environment:
 > conda create --name env_pyVF python=3.8
+
 > conda activate env_pyVF
+
 Step3: Install PyGlaucoMetrics package
 **Windows:**
 ```bash
