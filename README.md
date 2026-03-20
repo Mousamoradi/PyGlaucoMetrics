@@ -19,8 +19,12 @@
 ---
 
 ## Installation
-Step1: Download/clone the GitHub repository
+Step1: Download/clone the GitHub repository: https://github.com/Mousamoradi/PyGlaucoMetrics/tree/Ver.2026.3.20
 
+Step2: create and activate a conda environment:
+> conda create --name env_pyVF python=3.8
+> conda activate env_pyVF
+Step3: install PyGlaucoMetrics package
 **Windows:**
 ```bash
 pip install PyGlaucoMetrics[windows]
