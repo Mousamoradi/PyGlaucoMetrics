@@ -1,0 +1,17 @@
+## Link to Qt Designer: D:\Anaconda\envs\env_pyVF\Lib\site-packages\qt5_applications\Qt\bin
+
+1- Set path (Anaconda PowerShell): 
+Set-Location -Path C:\Users\mm3572\PyVisualField\PyGlaucoMetrics
+# Adjust the path based on your directory
+   
+
+2- conda activate env_pyVF
+
+3- Run ui:
+    python GL_prediction.py 
+
+
+#4- convert .ui to py # No need to run in CMD if you are not developing the GUI
+    #python -m PyQt5.uic.pyuic -x  GL_prediction4.ui -o  GL_prediction4.py
+#5- Visual studio: To comment a selection use ctrl+k+c and to uncomment the selection use ctrl+k+u
+    
