@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools>=61", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "PyGlaucoMetrics"
+version = "0.2.2"
+description = "Visual field analysis for glaucoma without R dependencies"
+readme = {file = "README.md", content-type = "text/markdown"}
+license = {file = "LICENSE"}
+requires-python = ">=3.8"
+authors = [{name = "Mousa Moradi", email = "mmoradi2@meei.harvard.edu"}]
+dependencies = [
+    "numpy",
+    "pandas",
+    "matplotlib",
+    "scipy",
+    "PyQt5>=5.15",
+    "Pillow",
+    "seaborn",
+    "pingouin",
+    "requests",
+    "pywin32",        # optional: windows-only
+]
+
+[project.optional-dependencies]        
+windows = ["pywin32"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+"PyGlaucoMetrics" = ["data/*.csv"]
+
+[project.urls]
+Homepage = "https://github.com/Mousamoradi/PyGlaucoMetrics/tree/ver-2026"
