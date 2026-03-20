@@ -19,6 +19,7 @@
 ---
 
 ## Installation
+Step1: Download/clone the GitHub repository
 
 **Windows:**
 ```bash
