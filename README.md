@@ -60,7 +60,7 @@ sys.exit(app.exec_())
 
 ---
 
-📹 Watch the full installation video at [YouTube](https://youtu.be/rt9FQ_6TGOo)
+📹### Watch the full installation video at [YouTube](https://youtu.be/rt9FQ_6TGOo)
 
 ## Input Format
 
