@@ -26,7 +26,8 @@ Step2: Create and activate a conda environment:
 
 > conda activate env_pyVF
 
-Step3: Install PyGlaucoMetrics package
+Step3: Install PyGlaucoMetrics package:
+
 **Windows:**
 ```bash
 pip install PyGlaucoMetrics[windows]
