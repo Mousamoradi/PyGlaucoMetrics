@@ -18,7 +18,7 @@
 
 ---
 
-## Installation
+## Installation (Watch the full installation video at [YouTube](https://youtu.be/rt9FQ_6TGOo)
 ### Step 1: Download/clone the GitHub repository: https://github.com/Mousamoradi/PyGlaucoMetrics/tree/Ver.2026.3.20
 
 ### Step 2: Create and activate a conda environment:
@@ -59,8 +59,6 @@ sys.exit(app.exec_())
 ```
 
 ---
-
-### 📹Watch the full installation video at [YouTube](https://youtu.be/rt9FQ_6TGOo)
 
 ## Input Format
 
