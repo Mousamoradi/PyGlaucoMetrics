@@ -1,19 +1,23 @@
 Metadata-Version: 2.1
 Name: PyGlaucoMetrics
-Version: 0.2.1
+Version: 0.2.2
 Summary: Visual field analysis for glaucoma without R dependencies
 Author-email: Mousa Moradi <mmoradi2@meei.harvard.edu>
 Project-URL: Homepage, https://github.com/Mousamoradi/PyGlaucoMetrics/tree/ver-2026
 Requires-Python: >=3.8
 Description-Content-Type: text/markdown
-Requires-Dist: numpy>=1.24
-Requires-Dist: pandas>=1.2
-Requires-Dist: matplotlib>=3.7
-Requires-Dist: scipy>=1.10
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: matplotlib
+Requires-Dist: scipy
 Requires-Dist: PyQt5>=5.15
-Requires-Dist: Pillow>=8.0
-Requires-Dist: seaborn>=0.13
-Requires-Dist: pingouin>=0.5
+Requires-Dist: Pillow
+Requires-Dist: seaborn
+Requires-Dist: pingouin
+Requires-Dist: requests
+Requires-Dist: pywin32
+Provides-Extra: windows
+Requires-Dist: pywin32; extra == "windows"
 
 # PyGlaucoMetrics
 

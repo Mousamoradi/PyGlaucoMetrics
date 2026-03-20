@@ -17,6 +17,12 @@
 
 ## Installation
 
+**Windows:**
+```bash
+pip install PyGlaucoMetrics[windows]
+```
+
+**Linux / macOS:**
 ```bash
 pip install PyGlaucoMetrics
 ```
@@ -105,6 +111,7 @@ Final decision is a **weighted ensemble** combining all five classifiers with in
 
 ## Requirements
 
+**Core (all platforms):**
 ```
 numpy
 pandas
@@ -114,7 +121,14 @@ PyQt5>=5.15
 Pillow
 seaborn
 pingouin
+requests
 ```
+
+**Windows only:**
+```
+pywin32
+```
+Installed automatically with `pip install PyGlaucoMetrics[windows]`.
 
 ---
 
