@@ -19,14 +19,14 @@
 ---
 
 ## Installation
-Step1: Download/clone the GitHub repository: https://github.com/Mousamoradi/PyGlaucoMetrics/tree/Ver.2026.3.20
+### Step1: Download/clone the GitHub repository: https://github.com/Mousamoradi/PyGlaucoMetrics/tree/Ver.2026.3.20
 
-Step2: Create and activate a conda environment:
+### Step2: Create and activate a conda environment:
 > conda create --name env_pyVF python=3.8
 
 > conda activate env_pyVF
 
-Step3: Install PyGlaucoMetrics package:
+### Step3: Install PyGlaucoMetrics package:
 
 **Windows:**
 ```bash
@@ -39,26 +39,7 @@ pip install PyGlaucoMetrics
 ```
 
 ---
-
-## Quick Start
-
-```python
-import pandas as pd
-from PyGlaucoMetrics import visualFields
-
-# 1. Load raw VF data (columns: id, eye, date, age, s1…s54)
-df_vf = pd.read_csv('VF_Data.csv')
-
-# 2. Compute TD, TDP, PD, PDP and global indices
-df_td, df_tdp, df_gi, df_gip, df_pd, df_pdp, gh = visualFields.getallvalues(df_vf)
-
-# 3. Plot a single exam (Sensitivity / TD probability / PD probability)
-visualFields.vfplot(df_vf.iloc[[0]], type='s')    # sensitivity
-visualFields.vfplot(df_vf.iloc[[0]], type='tds')  # TD probability
-visualFields.vfplot(df_vf.iloc[[0]], type='pds')  # PD probability
-```
-
-### Launch the GUI
+### Step 4: Launch the GUI
 
 ```bash
 python GL_prediction.py
