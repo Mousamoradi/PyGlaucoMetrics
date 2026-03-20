@@ -14,11 +14,9 @@
 
 2- conda activate env_pyVF
 
-#3-Check if R-package and rpy2 installed already
-
 #python  test_rpy2.py
 
-4- Open Jupyter notebook
+3- Open Jupyter notebook
 
 >> jupyter notebook
 
