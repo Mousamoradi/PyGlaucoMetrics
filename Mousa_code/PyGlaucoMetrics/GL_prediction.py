@@ -37,8 +37,8 @@ import numpy as np
 import pandas as pd
 import pingouin as pg
 import seaborn as sns
-from PyVisualFields import visualFields
-from PyVisualFields import vfprogression
+from PyGlaucoMetrics import visualFields
+from PyGlaucoMetrics import vfprogression
 import warnings
 import time
 import win32api
