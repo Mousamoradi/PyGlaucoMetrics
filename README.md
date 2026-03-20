@@ -2,6 +2,9 @@
 
 **PyGlaucoMetrics** is an open-source, pure-Python package for glaucoma detection using visual field (VF) data — no R or rpy2 dependency required. It accepts Humphrey Field Analyzer (HFA) 24-2 and 10-2 test patterns and provides a full pipeline from raw VF data to ensemble glaucoma classification with an interactive GUI.
 
+[![PyPI version](https://badge.fury.io/py/PyGlaucoMetrics.svg)](https://pypi.org/project/PyGlaucoMetrics/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 ---
 
 ## Features
@@ -50,7 +53,7 @@ visualFields.vfplot(df_vf.iloc[[0]], type='pds')  # PD probability
 ### Launch the GUI
 
 ```bash
-python -m PyGlaucoMetrics.GL_prediction
+python GL_prediction.py
 ```
 
 Or from Python:
